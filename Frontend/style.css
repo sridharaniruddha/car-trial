@@ -45,10 +45,15 @@ body {
        top: 10%;
        left: 50%;
        transform: translate(-25%, 50%);
+       text-decoration: none;
+       color: rgb(252, 255, 117);
+       text-align: left;
+       
+
     }
 
-    .fact {
-        
+    .page-section a{
+        text-decoration: none;
+        color: rgb(247, 132, 96);
     }
-    
     
