@@ -34,14 +34,14 @@ body {
         text-align: center;
     }
 
-    .icon {
+    .cat {
         position:absolute;
-        width:30px;
+        width:3px;
         left:72%;
         top:2%;
     }
 
-    .icon:hover{
+    .cat:hover{
         box-shadow: 0 0 20px rgb(252, 255, 117); 
     }
 
@@ -73,15 +73,18 @@ body {
         width: 70%; 
       } */
       
-      img {
+      .icon img {
         width: 100%;
-        display: block;
+        display:block;
+        top:30%;
       }
+
       .image-container img {
         height: 300px;
         object-fit: cover;
         z-index: 2;
     }
+
     .image-container {
         display: flex;
         justify-content: center;
